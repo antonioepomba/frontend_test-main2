@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Accenture</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="./components/list.js"></script>
+</head>
+
+<body onload="loadSpiner()">
+  <!-- Your Semantic Html here -->
+  <div id="container" class="desktop1">
+    <!--Navegation Section-->
+    <div id="nav" class="navbar">
+      <div class="images">
+        <img class="logo" src="./assets/images/Vector (1).svg" alt="logotipo" />
+        <h1 class="comfort">Comfort&Co.</h1>
+        <img class="cart" src="./assets/images/Vector.svg" alt="carrinho" />
+        <p id="addedPrice" class="price">
+          <script>addToCart('addedPrice', 6)</script>0,00 €
+        </p>
+      </div>
+    </div>
+    <!--Body-Section-->
+    <div id="body-section">
+      <div id="search" class="search"> <input type="text" onkeypress="filterProduct()" id="input-search"
+          placeholder="What are you looking for?" />
+        <div class="search-image"> <img src="./assets/images/search.png" alt="logotipo" /></div>
+
+      </div>
+      <div id="spiner" class="spinerr"></div>
+      <div id="cards" class="cards">
+
+
+        <div id="card1" class="card1">
+          <div class="remove-titles-container1" id="remove-title-container1">
+            <h3 id="removeCouch1" class="remove-text-card1">
+              <script>setImage('card1', 0)</script>
+              <script>insertName('removeCouch1', 0)</script>
+            </h3>
+            <p id="removeprice1" class="remove-card-text">
+              <script> insertPrice('removeprice1', 0)</script>
+            </p>
+            <button onclick="removeFromCart('addedPrice','couch1','price1','add1','remove-title-container1')"
+              class="remove-card-button"> Remove<br> from Cart </button>
+          </div>
+          <div class="titles-container1">
+            <h3 id="couch1" class="text-card1">
+              <script>setImage('card1', 0)</script>
+              <script>insertName('couch1', 0)</script>
+            </h3>
+            <p id="price1" class="card-text">
+              <script> insertPrice('price1', 0)</script>
+            </p>
+            <button id="add1" onclick="addToCart('addedPrice',0,'couch1','price1','add1','remove-title-container1')"
+              class="card-button"> Add to Cart</button>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="remove-titles-container1" id="remove-title-container2">
+            <h3 id="removeCouch2" class="remove-text-card1">
+              <script>setImage('card1', 1)</script>
+              <script>insertName('removeCouch2', 1)</script>
+            </h3>
+            <p id="removeprice2" class="remove-card-text">
+              <script> insertPrice('removeprice2', 1)</script>
+            </p>
+            <button onclick="removeFromCart('addedPrice','couch2','price2','add2','remove-title-container2')"
+              class="remove-card-button"> Remove<br> from Cart </button>
+          </div>
+          <div id="card2" class="titles-container1">
+            <h3 id="couch2" class="text-card1">
+              <script>setImage('card2', 1)</script>
+              <script>insertName('couch2', 1)</script>
+            </h3>
+            <p id="price2" class="card-text">
+              <script>insertPrice('price2', 1)</script>
+            </p>
+            <button id="add2" onclick="addToCart('addedPrice',1,'couch2','price2','add2','remove-title-container2')"
+              class="card-button"> Add to Cart</button>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="remove-titles-container1" id="remove-title-container3">
+            <h3 id="removeCouch3" class="remove-text-card1">
+              <script>setImage('card1', 2)</script>
+              <script>insertName('removeCouch3', 2)</script>
+            </h3>
+            <p id="removeprice3" class="remove-card-text">
+              <script> insertPrice('removeprice3', 2)</script>
+            </p>
+            <button  onclick="removeFromCart('addedPrice','couch3','price3','add3','remove-title-container3')"
+              class="remove-card-button"> Remove<br> from Cart </button>
+          </div>
+          <div class="titles-container1">
+            <h3 id="couch3" class="text-card1">
+              <script>insertName('couch3', 2)</script>
+            </h3>
+            <p id="price3" class="card-text">
+              <script>insertPrice('price3', 2)</script>
+            </p>
+            <button id="add3" onclick="addToCart('addedPrice',2,'couch3','price3','add3','remove-title-container3')"
+              class="card-button"> Add to Cart</button>
+          </div>
+        </div>
+        <div class="card4">
+          <div class="remove-titles-container1" id="remove-title-container4">
+            <h3 id="removeCouch4" class="remove-text-card1">
+              <script>setImage('card1', 3)</script>
+              <script>insertName('removeCouch4', 3)</script>
+            </h3>
+            <p id="removeprice4" class="remove-card-text">
+              <script> insertPrice('removeprice4', 3)</script>
+            </p>
+            <button onclick="removeFromCart('addedPrice','couch4','price4','add4','remove-title-container4')"
+              class="remove-card-button"> Remove<br> from Cart </button>
+          </div>
+          <div class="titles-container1">
+            <h3 id="couch4" class="text-card1">
+              <script>insertName('couch4', 3)</script>
+            </h3>
+            <p id="price4" class="card-text">
+              <script>insertPrice('price4', 3)</script>
+            </p>
+            <button id="add4" onclick="addToCart('addedPrice',3,'couch4','price4','add4','remove-title-container4')"
+              class="card-button"> Add to Cart</button>
+          </div>
+        </div>
+        <div class="card5">
+          <div class="remove-titles-container1" id="remove-title-container5">
+            <h3 id="removeCouch5" class="remove-text-card1">
+              <script>setImage('card1', 4)</script>
+              <script>insertName('removeCouch5', 4)</script>
+            </h3>
+            <p id="removeprice5" class="remove-card-text">
+              <script> insertPrice('removeprice5', 4)</script>
+            </p>
+            <button onclick="removeFromCart('addedPrice','couch5','price5','add5','remove-title-container5')"
+              class="remove-card-button"> Remove<br> from Cart </button>
+          </div>
+          <div class="titles-container1">
+            <h3 id="couch5" class="text-card1">
+              <script>insertName('couch5', 4)</script>
+            </h3>
+            <p id="price5" class="card-text">
+              <script>insertPrice('price5', 4)</script>
+            </p>
+            <button id="add5" onclick="addToCart('addedPrice',4,'couch5','price5','add5','remove-title-container5')"
+              class="card-button"> Add to Cart</button>
+          </div>
+        </div>
+        <div class="card6">
+          <div class="remove-titles-container1" id="remove-title-container6">
+            <h3 id="removeCouch6" class="remove-text-card1">
+              <script>setImage('card1', 5)</script>
+              <script>insertName('removeCouch6', 5)</script>
+            </h3>
+            <p id="removeprice6" class="remove-card-text">
+              <script> insertPrice('removeprice6', 5)</script>
+            </p>
+            <button onclick="removeFromCart('addedPrice','couch6','price6','add6','remove-title-container6')"
+              class="remove-card-button"> Remove<br> from Cart </button>
+          </div>
+          <div class="titles-container1">
+            <h3 id="couch6" class="text-card1">
+              <script>insertName('couch6', 5)</script>
+            </h3>
+            <p id="price6" class="card-text">
+              <script>insertPrice('price6', 5)</script>
+            </p>
+            <button id="add6" onclick="addToCart('addedPrice',5,'couch6','price6','add6','remove-title-container6')"
+              class="card-button"> Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <h3 class="element-searched" id="element-serached"></h3>
+    </div>
+  </div>
+  </div>
+  <h3 class="text-responsive">For a better experience, use a wide window</h3>
+</body>
+
+</html>

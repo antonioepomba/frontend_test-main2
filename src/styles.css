@@ -1,0 +1,381 @@
+.desktop1 {
+  height: 1024px;
+  width: 1440px;
+  left: -720px;
+  top: -513px;
+  border-radius: 0px;
+  border: hidden;
+  background: #ffffff;
+  margin: 35px 52px;
+}
+
+.navbar {
+  height: 145px;
+  width: 1440px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #f07272;
+  margin: 0px 0px;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  left: 4.16%;
+  right: 4.17%;
+  top: 0%;
+  bottom: 0%;
+  margin: 76px 56px;
+}
+
+.comfort {
+  width: 494px;
+  height: 72px;
+  left: 170px;
+  top: 54px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #fff;
+  margin: 58px 138px;
+}
+
+.cart {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 12.5%;
+  bottom: 12.5%;
+  margin: 15px -24px;
+  padding-left: 1276px;
+}
+
+.price {
+  position: absolute;
+  width: 494px;
+  height: 72px;
+  left: 1294px;
+  top: 62px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  margin: 43px 33px;
+  color: #ffffff;
+}
+
+body {
+  background: rgba(229, 229, 229, 0.9450980392);
+}
+
+.images {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+.cards {
+  display: inline-block;
+}
+
+.card1 {
+  position: absolute;
+  width: 350px;
+  height: 232px;
+  left: 123px;
+  top: 275px;
+  margin-left: 28px;
+  background: url(assets/images/image\ 1.png);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card2 {
+  position: absolute;
+  width: 350px;
+  height: 232px;
+  left: 123px;
+  top: 275px;
+  margin-left: 464px;
+  background: url(assets/images/image\ 3.png);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card3 {
+  position: absolute;
+  width: 350px;
+  height: 232px;
+  left: 123px;
+  top: 275px;
+  margin-left: 881px;
+  background: url(assets/images/image\ 5.png);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card4 {
+  position: absolute;
+  width: 350px;
+  height: 232px;
+  left: 123px;
+  top: 628px;
+  margin-left: 31px;
+  background: url(assets/images/image\ 7.png);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card5 {
+  position: absolute;
+  width: 350px;
+  height: 232px;
+  left: 545px;
+  top: 631px;
+  margin-left: 42px;
+  background: url(assets/images/image\ 8.png);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card6 {
+  position: absolute;
+  width: 350px;
+  height: 232px;
+  left: 967px;
+  top: 631px;
+  margin-left: 38px;
+  background: url(assets/images/image\ 9.png);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.text-card1 {
+  position: absolute;
+  width: 230px;
+  height: 29px;
+  left: 155px;
+  margin: 231px -141px -125px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.card-text {
+  position: absolute;
+  width: 230px;
+  height: 29px;
+  left: 156px;
+  top: 544px;
+  margin: -291px -143px -141px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #726c6c;
+}
+
+.titles-container1 {
+  border: groove rgba(217, 217, 217, 0.7215686275);
+  height: 286px;
+  border-radius: 3%;
+}
+
+.card-button {
+  position: absolute;
+  width: 252px;
+  height: 29px;
+  left: 337px;
+  top: 528px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #f07272;
+  margin: -286px -184px;
+  border: 0px;
+  background: inherit;
+}
+
+.remove-titles-container1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 350px;
+  margin: -71px -123px;
+  height: 85px;
+  left: 123px;
+  top: 275px;
+  background: #f07272;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  display: none;
+}
+
+.remove-text-card1 {
+  position: absolute;
+  width: 230px;
+  height: 29px;
+  left: 155px;
+  top: 517px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin: -486px -151px;
+  color: #ffffff;
+}
+
+.remove-card-text {
+  position: absolute;
+  width: 230px;
+  height: 29px;
+  left: 156px;
+  top: 544px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  margin: -493px -151px;
+}
+
+.remove-card-button {
+  position: absolute;
+  width: 230px;
+  height: 29px;
+  left: 289px;
+  top: 518px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  margin: -490px -171px;
+  border: 0px;
+  background: inherit;
+}
+
+input {
+  box-sizing: border-box;
+  margin: 25px 15px;
+  position: absolute;
+  width: 550px;
+  height: 60px;
+  left: 445px;
+  top: 170px;
+  background: #ffffff;
+  border: 1px solid #f07272;
+  border-radius: 5px;
+}
+
+.search {
+  margin: -18px 6px 13px;
+}
+
+.search-image {
+  margin: 44px 519px;
+  position: absolute;
+  width: 44px;
+  height: 30px;
+  left: 445px;
+  top: 170px;
+  background: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinerr {
+  position: absolute;
+  width: 234px;
+  height: 172px;
+  background: url(assets/images/spiner.png);
+  background-color: inherit;
+  -webkit-animation: rotation 1s infinite linear;
+          animation: rotation 1s infinite linear;
+  align-items: center;
+  margin: 208px 640px;
+  display: none;
+}
+
+.text-responsive {
+  display: none;
+}
+
+.element-searched {
+  position: absolute;
+  width: 494px;
+  height: 72px;
+  left: 473px;
+  top: 476px;
+  margin: -108px 0px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+  color: #726c6c;
+}
+
+/*Media Query 1024 */
+@media only screen and (max-width: 1024px) {
+  .desktop1 {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
+  .cards {
+    display: none;
+  }
+  body {
+    position: relative;
+    width: 414px;
+    height: 896px;
+    background: #f07272;
+  }
+  .text-responsive {
+    display: inline-block;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 72px;
+    width: 367px;
+    left: -183px;
+    color: #fff;
+    top: -179px;
+    margin: 601px 298px;
+  }
+}/*# sourceMappingURL=styles.css.map */
